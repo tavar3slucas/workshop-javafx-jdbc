@@ -8,7 +8,7 @@ import model.entities.Department;
 
 public class DepartmentService {
 
-	
+	//Busca no Mysql a tabela
 	private DepartmentDao dao = DaoFactory.createDepartmentDao();
 	
 	public List<Department> findAll(){
